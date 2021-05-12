@@ -8,7 +8,11 @@
 }
 
 .cell{
-    width: var(--row);
+    max-height: var(--row);
+    max-width: var(--row);
 }
 
 
+body{
+    padding: 25%;
+}
